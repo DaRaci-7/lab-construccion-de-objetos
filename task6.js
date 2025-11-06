@@ -27,5 +27,13 @@ function ShoppingList(owner) {
     }
   };
 }
+
+const listaCami = new ShoppingList("Cami");
+
+listaCami.addItem("velas", 3);
+listaCami.addItem("incienso", 2);
+listaCami.addItem("velas", 1);
+
+listaCami.showList();
 // Type your code above this line!
 
